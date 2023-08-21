@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:background="#FF018786"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/d_qlai"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:background="@drawable/muitentrang"
+            android:contentDescription="@string/app_name"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_weight="6"
+            android:padding="8dp"
+            android:text="THÊM THIẾT BỊ CỦA TRẺ"
+            android:textColor="@color/white"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên của thiết bị"
+        android:textSize="22dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:hint="Nhập tên thiết bị"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textSize="20dp" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm số điện thoại của trẻ em"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:textSize="22dp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/sdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:hint="Nhập số điện thoại"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:textSize="20dp" />
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        >
+
+        <TextView
+            android:id="@+id/id_code"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Mã Code:"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textIsSelectable="false"
+            android:layout_marginTop="10dp"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/rd_code"
+            android:layout_width="0dp"
+            android:layout_weight="2.75"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="18dp"
+        android:background="@color/black" />
+
+    <Button
+        android:id="@+id/gui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/custom_buttom_2"
+        android:minHeight="48dp"
+        android:text="Gửi và tiếp tục"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+</LinearLayout>

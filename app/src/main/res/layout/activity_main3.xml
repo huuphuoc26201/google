@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@android:color/darker_gray"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/d_qlai"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:background="@drawable/muitentrang"
+            android:contentDescription="@string/app_name"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:layout_marginLeft="50dp"
+            android:text="SOS - I need help !"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:textSize="24dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:layout_marginBottom="20dp"
+            android:text="Yêu cầu khẩn cấp đã được gửi"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lời nhắn:"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/tinnhan"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:hint="Nhập tin nhắn của bạn"
+            android:layout_marginBottom="10dp"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/sms"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/custom_button_4"
+            android:text="SMS"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/call"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/custom_button_4"
+            android:text="Call"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/khancap"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="65dp"
+            android:backgroundTint="@color/black"
+            tools:ignore="ContentDescription"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/ic_baseline_phone_24"/>
+        <Button
+            android:id="@+id/goi"
+            android:layout_width="330dp"
+            android:layout_height="65dp"
+            android:backgroundTint="#FF9800"
+            android:text="Cuộc gọi khẩn cấp !"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginTop="60dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
